@@ -1,0 +1,17 @@
+{
+  "main": "./contracts/HOLToken.sol",
+  "deploy": "./build/contracts/HOLToken.json",
+  "framework": "truffle",
+  "npmClient": "npm",
+  "compilers": {
+    "solc": "0.8.0",
+    "truffle": "v5.4.3",
+    "evmVersion": "istanbul"
+  },
+  "linter": "solhint",
+  "editor": {
+    "fontFamily": "Hack",
+    "fontSize": "13px",
+    "ligatures": false
+  }
+}

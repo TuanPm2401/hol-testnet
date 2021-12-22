@@ -1,0 +1,81 @@
+{
+  "network": "bsc-testnet",
+  "codeHash": "0xc08af08559bee5a4a86f563700490dd0aadb8c287556e237830a0d94886282c1",
+  "array": [
+    "1",
+    "0x1ACCa3E214c2EB5638CFcF95ce6704AC2372987D",
+    "0xa0d659490e731a661978bee3152f47b9b2b4d6e3"
+  ],
+  "json": {
+    "rate": "1",
+    "wallet": "0x1ACCa3E214c2EB5638CFcF95ce6704AC2372987D",
+    "token": "0xa0d659490e731a661978bee3152f47b9b2b4d6e3"
+  },
+  "obj": {
+    "rate": {
+      "type": "uint256",
+      "value": "1"
+    },
+    "wallet": {
+      "type": "address",
+      "value": "0x1ACCa3E214c2EB5638CFcF95ce6704AC2372987D"
+    },
+    "token": {
+      "type": "address",
+      "value": "0xa0d659490e731a661978bee3152f47b9b2b4d6e3"
+    }
+  },
+  "empty": false,
+  "receipt": {
+    "to": null,
+    "from": "0x9FD08d3a20744120f89e7086b833a27ae13CB906",
+    "contractAddress": "0x70aCC85fd01a9943A643e54cf7629bB25AeC075e",
+    "transactionIndex": 3,
+    "gasUsed": "296572",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x8d3fbb7a10a8887caf5b81efd0550a3f260cffcf106996a8f88f07db921a1649",
+    "transactionHash": "0x3b4aec3a89999588fb4a013fcac57fcf15c1f89b67b7b9cee9df1acf2767e83b",
+    "logs": [],
+    "blockNumber": 15165096,
+    "cumulativeGasUsed": "718626",
+    "status": 1,
+    "type": 0,
+    "byzantium": true
+  },
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "rate",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address payable",
+          "name": "wallet",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IERC20",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "beneficiary",
+          "type": "address"
+        }
+      ],
+      "name": "buyTokens",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ]
+}

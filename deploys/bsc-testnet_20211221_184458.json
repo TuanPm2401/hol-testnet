@@ -1,0 +1,148 @@
+{
+  "network": "bsc-testnet",
+  "codeHash": "0x08a9b50764d2662dcfaa1664b293840c8f11356156eb6a8bfc4deabce08b891b",
+  "array": [
+    "1",
+    "0xa0d659490e731a661978bee3152f47b9b2b4d6e3"
+  ],
+  "json": {
+    "rate": "1",
+    "token": "0xa0d659490e731a661978bee3152f47b9b2b4d6e3"
+  },
+  "obj": {
+    "rate": {
+      "type": "uint256",
+      "value": "1"
+    },
+    "token": {
+      "type": "address",
+      "value": "0xa0d659490e731a661978bee3152f47b9b2b4d6e3"
+    }
+  },
+  "empty": false,
+  "receipt": {
+    "to": null,
+    "from": "0x9FD08d3a20744120f89e7086b833a27ae13CB906",
+    "contractAddress": "0x6D0BCbDf30d534b8d0370F83ed678a227F2FBE04",
+    "transactionIndex": 5,
+    "gasUsed": "582848",
+    "logsBloom": "0x00000000000000000000000800000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000001000000000000000000000000000000000000020000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000008008000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000024000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x20e4bbc7766d5593199b737fbcfaba5c4d3364a3e5ef6e63286510ec1d911e33",
+    "transactionHash": "0x16ed635a9a78b9f29103a3d00d41139fa1f114cc27a63191c0b085d593f71b4d",
+    "logs": [
+      {
+        "transactionIndex": 5,
+        "blockNumber": 15165342,
+        "transactionHash": "0x16ed635a9a78b9f29103a3d00d41139fa1f114cc27a63191c0b085d593f71b4d",
+        "address": "0x6D0BCbDf30d534b8d0370F83ed678a227F2FBE04",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x0000000000000000000000009fd08d3a20744120f89e7086b833a27ae13cb906"
+        ],
+        "data": "0x",
+        "logIndex": 13,
+        "blockHash": "0x20e4bbc7766d5593199b737fbcfaba5c4d3364a3e5ef6e63286510ec1d911e33"
+      }
+    ],
+    "blockNumber": 15165342,
+    "cumulativeGasUsed": "1583108",
+    "status": 1,
+    "type": 0,
+    "byzantium": true
+  },
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "rate",
+          "type": "uint256"
+        },
+        {
+          "internalType": "contract IERC20",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    },
+    {
+      "inputs": [],
+      "name": "buyTokens",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "rate",
+          "type": "uint256"
+        }
+      ],
+      "name": "changeRate",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}
